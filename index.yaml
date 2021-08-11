@@ -2,6 +2,18 @@ apiVersion: v1
 entries:
   thermite:
   - apiVersion: v2
+    appVersion: 0.0.27
+    created: "2021-08-10T21:41:04.225905-04:00"
+    description: Removes old and undeployed Amazon Elastic Container Registry images
+    digest: 742068aa060f20feb01942c804f00a6f6bfc87b6f242d68933ed44ebc5c00950
+    name: thermite
+    sources:
+    - https://github.com/dollarshaveclub/thermite
+    type: application
+    urls:
+    - https://github.com/dollarshaveclub/helm-charts-public/releases/download/thermite-0.1.13/thermite-0.1.13.tgz
+    version: 0.1.13
+  - apiVersion: v2
     appVersion: 0.0.23
     created: "2021-08-05T22:25:37.721716-04:00"
     description: Removes old and undeployed Amazon Elastic Container Registry images
@@ -73,4 +85,4 @@ entries:
     urls:
     - https://github.com/dollarshaveclub/helm-charts-public/releases/download/thermite-0.1.7/thermite-0.1.7.tgz
     version: 0.1.7
-generated: "2021-08-05T22:25:37.72176-04:00"
+generated: "2021-08-10T21:41:04.225962-04:00"
